@@ -3,7 +3,6 @@ FROM n8nio/n8n:latest
 # Add custom environment variables
 ENV N8N_PORT=5678
 ENV NODE_ENV=production
-ENV N8N_ENCRYPTION_KEY=your-encryption-key-here
 ENV N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=true
 
 # Create and set permissions for n8n directory
