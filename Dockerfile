@@ -9,4 +9,4 @@ ENV N8N_ENCRYPTION_KEY=your-encryption-key-here
 EXPOSE 5678
 
 # Start n8n
-CMD ["n8n", "start"]
+CMD ["/usr/local/bin/node", "/usr/local/lib/node_modules/n8n/bin/n8n", "start"]
